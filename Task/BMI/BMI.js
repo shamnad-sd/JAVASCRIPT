@@ -17,3 +17,5 @@ else{
 }
 
 console.log(`Mark's BMI ${BMIMark}is higher than John's ${BMIJohn}!`)
+
+console.log("bmi")
