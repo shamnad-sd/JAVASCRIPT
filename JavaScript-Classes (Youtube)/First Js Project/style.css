@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    
+}
+h1{
+    font-weight: bold;
+}
+input{
+    background-color: white;
+    color: #3f87a6;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+button{
+    background-color: #3f87a6;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+ul{
+    text-decoration: none;
+    text-align: start;
+    
+}
+.carcollection-list {
+    background-color: #f69d3c;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 32rem;
+    text-decoration: none;
+    animation: 0.3s ease;
+    
+}
+.carcollection-list{
+    text-align: center;
+    position: absolute;
+}
+

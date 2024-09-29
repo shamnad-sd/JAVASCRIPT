@@ -43,15 +43,23 @@
 // for(let Carcollections of cars){
 //     let li =document.createElement('li')
 //     li.innerHTML= Carcollections;
+// appendchild was ul tag child component
 //     carcoll.appendChild(li);
 //     console.log(li);
 
 // }
 
 /*METHOD 2*/
-// THIS WAY WE ARE USING FUNCTION FOR 
+// THIS WAY WE ARE USING FUNCTION FOR passing data's
+// forEach
 let carcoll = document.getElementById("carsId")
 let cars =["bmw","porshe","Toyoto","Kia","landRover","Tata"];
+
+cars.forEach(function (carcollection){
+    let li =document.createElement('li')
+    li.innerHTML= carcollection;
+    carcoll.appendChild(li);
+});
 
 
 
